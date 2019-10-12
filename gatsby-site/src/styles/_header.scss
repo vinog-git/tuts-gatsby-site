@@ -1,0 +1,23 @@
+header,
+footer {
+  color: $white;
+  background: $header-background;
+
+  a {
+    text-decoration: none;
+    color: $white;
+
+    &:hover {
+      color: $link-hover;
+      text-decoration: none;
+    }
+  }
+
+  h1 {
+    a {
+      font-size: $font-l;
+      font-weight: 700;
+      letter-spacing: 0.007em;
+    }
+  }
+}
